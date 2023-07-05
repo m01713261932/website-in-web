@@ -7,9 +7,37 @@ h1{
         
 }
 
+p{
+    text-align: justify;
+}
 
-img{
+#imageDiv{
+    display: inline-block;
+    background-color: rgb(179, 243, 243);
+}
+
+.nationalFrag{
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+}
+
+.imageBlock{
+    display: inline-block;
+    margin: 20px;
+    text-align:center;
+    
+}
+
+.mosquesBlok{
+    border: 3px solid green;
+    height: 250px;
+    box-shadow: 3px 3px 15px black;
+    border-radius: 10px;
+}
+
+.imageTitle{
+    display: block;
+    text-align: center;
 }
